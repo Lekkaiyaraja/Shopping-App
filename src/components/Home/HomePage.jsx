@@ -9,7 +9,8 @@ const HomePage = () => {
     <div>
         {/* {hero section} */}
         <HeroSection title="Buy iPhone 14 pro" subtitle="Experience the power of iphone 14 pro."
-        link="/product/67d27b51c60a9948500a2644"
+        // link="/product/67d27b51c60a9948500a2644"
+        link="/product/67d6b2622154a77e98cf97a0"
         image={iphone}
         />
         {/* {featured Products} */}

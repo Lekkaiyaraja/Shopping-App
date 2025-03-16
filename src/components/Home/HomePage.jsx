@@ -17,7 +17,8 @@ const HomePage = () => {
         <FeaturedProducts/>
         {/* {hero section} */}
         <HeroSection title="Build the ultimate setup" subtitle="You can add adudio displsy and color-matched magic accessories to your bag after configure your mac mini."
-        link="/product/67d27b52c60a9948500a264c"
+        link="/product/67d6b2622154a77e98cf97a8"
+        // link="/product/67d27b52c60a9948500a264c"
         image={mac}
         />
         

@@ -1,0 +1,239 @@
+/* .cart_page{
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 32px 48px;
+
+}
+
+.user_info{
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.user_info img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.user_name {
+    font-size: 21px;
+    font-weight: 600;
+    
+
+}
+
+.cart_bill {
+    align-self: flex-end;
+    width: 400px;
+    border-collapse: collapse;
+    font-size: 16px;
+    margin-top: 16px;
+    border-color: #fff;
+
+}
+
+.cart_bill td {
+    padding: 12px 20px;
+    border: 3px solid #e5e5e5;
+
+}
+
+.cart_bill td:last-child {
+    text-align: end;
+    width: 120px;
+}
+
+.cart_bill_final{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.checkout_button {
+    align-self: flex-end;
+    height: 38px !important;
+    margin: 16px 0;
+    padding: 0 16px !important;
+}
+
+.table_quantity_input{
+    height: 50px;
+    justify-content: center;
+}
+
+.cart_remove_icon{
+    width: 40px;
+    height: 35px;
+    cursor: pointer;
+} */
+
+
+
+/* CART PAGE STYLES */
+.cart_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+    margin: 40px auto;
+    padding: 32px 48px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* USER INFO STYLES */
+.user_info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 32px;
+    padding: 16px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #0074b7, #2b9fc5);
+    color: white;
+    width: 100%;
+}
+
+.user_info img {
+    width: 85px;
+    height: 85px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.user_name {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff1414;
+}
+
+/* CART TABLE */
+.common_table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.common_table thead {
+    background: linear-gradient(45deg, #0074b7, #2b9fc5);
+    color: white;
+    font-size: 16px;
+}
+
+.common_table thead th {
+    padding: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.common_table tbody tr {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.common_table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.common_table tbody tr:hover {
+    background-color: rgba(43, 159, 197, 0.15);
+}
+
+/* ITEM STYLES */
+.common_table td {
+    padding: 14px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+/* QUANTITY STYLES */
+.table_quantity_input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.quantity_btn {
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.quantity_btn:hover {
+    transform: scale(1.1);
+    background: linear-gradient(135deg, #feb47b, #ff7e5f);
+}
+
+/* REMOVE ICON */
+.cart_remove_icon {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.cart_remove_icon:hover {
+    transform: scale(1.1);
+}
+
+/* BILL SUMMARY */
+.cart_bill {
+    width: 400px;
+    border-collapse: collapse;
+    font-size: 16px;
+    margin-top: 16px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart_bill td {
+    padding: 14px 20px;
+    border: 2px solid #e5e5e5;
+    font-weight: 600;
+}
+
+.cart_bill_final {
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #ff7e5f, #feb47b);
+    color: white;
+    padding: 12px 20px;
+    text-align: right;
+}
+
+/* CHECKOUT BUTTON */
+.checkout_button {
+    width: 100%;
+    height: 42px;
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+}
+
+.checkout_button:hover {
+    background: linear-gradient(90deg, #feb47b, #ff7e5f);
+    transform: scale(1.05);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}

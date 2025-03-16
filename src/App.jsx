@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { ToastContainer, toast } from "react-toastify";
 // import { jwtDecode } from "jwt-decode";
-import UserContext from "../../context/UserContext"; 
+import UserContext from "./context/UserContext";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Routing from "./components/Routing/Routing";

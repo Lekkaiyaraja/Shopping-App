@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import "./CartPage.css";
 import config from "../../config.json"
-import UserContext from "../../context/UserContext";
+import { UserContext } from "../../context/UserContext";
 import Table from "../Common/Table";
 import QuantityInput from "../SingleProduct/QuantityInput";
 import remove from "../../assets/remove.png";

@@ -6,7 +6,7 @@ import { useParams } from "react-router-dom";
 import useData from "../../hooks/useData";
 import Loader from "../Common/Loader";
 import CartContext from "../../context/CartContext";
-import UserContext from "../../context/UserContext";
+import { UserContext } from "../../context/UserContext";
 
 const SingleProductPage = () => {
   const [selectedImage, setSelectedImage] = useState(0);

@@ -2,7 +2,7 @@ import React, { useState, useContext, useEffect } from "react";
 import "./Navbar.css";
 import LinkWithIcon from "./LinkWithIcon";
 import { Link, NavLink, useNavigate } from "react-router-dom";
-import UserContext from "../../context/UserContext";
+import { UserContext } from "../../context/UserContext";
 import CartContext from "../../context/CartContext";
 import { getSuggestionsAPI } from "../../Services/productServices";
 

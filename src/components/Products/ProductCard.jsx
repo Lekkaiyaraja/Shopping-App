@@ -6,7 +6,7 @@ import star from "../../assets/white-star.png";
 import basket from "../../assets/basket.png";
 import { NavLink } from "react-router-dom";
 import CartContext from "../../context/CartContext";
-import UserContext from "../../context/userContext";
+import UserContext from "../../context/UserContext";
 
 const ProductCard = ({
   product,
